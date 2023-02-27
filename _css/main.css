@@ -1,0 +1,49 @@
+body{
+background-color: rgb(255, 255, 255);
+overflow: visible;
+}
+
+#menu{
+    background-color: rgb(18, 24, 71);
+    height: 50px;
+    box-shadow: 0 0 4px black;
+}
+
+#menu ul{
+    margin-top:  10px;
+    width: 42%;
+    float: right;
+}
+#menu li{
+    display: inline-block;
+    padding: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#menu li a{
+    padding: 5px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(167, 166, 182);
+}
+
+#menu li a:hover{
+    color: rgb(215, 216, 196);
+}
+
+#rodapeIndex{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 30px;
+    color: aliceblue;
+    height: 50px;
+    background-color: rgb(18, 24, 71);
+    box-shadow: 0 0 4px black;
+
+}
+#rodapeIndex p{
+    top: 33px;
+    text-align: right;
+    position: relative;
+}

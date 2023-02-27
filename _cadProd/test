@@ -1,0 +1,72 @@
+<article class="formPrincipal">
+            <form action="">
+                <h3>Buscar produtos</h3><br><br>
+                <label for="prodId">Id Produto</label><br>
+                <select name="prodId" id="prodId" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select>
+                
+                <label for="prodNome">Nome Produto</label><br>
+                <select name="prodNome" id="prodNome" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select><br>
+                <input type="submit">  
+            </form>
+        </article>
+        <article class="forms">
+            <form>
+                <h3>Cadastro de produtos novos</h3><br><br>
+                <label for="codBarra">Código de Barra</label><br/>
+                <input type="text" id="codBarra" class="inputs"><br/>
+                <label for="nmProd">Nome Produto</label><br>
+                <input type="text" id="nmProd" class="inputs"><br>
+                <label for="qtde">Quantidade</label><br>
+                <input type="text" id="qtde" class="inputs"><br>
+                <label for="volume">Volume</label><br>
+                <input type="text" id="volume" class="inputs"><br>
+                <label for="valor">Valor</label><br>
+                <input type="text" id="valor" onkeypress= "onlynumber()" class="inputs"><br>
+                <input type="submit" value="Salvar" class="inputs">
+            </form>
+        </article>
+
+        <article class="forms">
+            <form>
+                <h3>Alterar dados produtos</h3><br><br>
+                <label for="prodId">Id Produto</label><br>
+                <select name="prodId" id="prodId" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select><br>
+                <label for="prodNome">Nome Produto</label><br>
+                <select name="prodNome" id="prodNome" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select>
+                <br>
+                <label for="codBarra">Código de Barra</label><br/>
+                <input type="text" id="codBarra" class="inputs"><br/>
+                <label for="nmProd">Nome Produto</label><br>
+                <input type="text" id="nmProd" class="inputs"><br>
+                <label for="qtde">Quantidade</label><br>
+                <input type="text" id="qtde" class="inputs"><br>
+                <label for="volume">Volume</label><br>
+                <input type="text" id="volume" class="inputs"><br>
+                <label for="valor">Valor</label><br>
+                <input type="text" id="valor" onkeypress= "onlynumber()" class="inputs"><br>
+                <input type="submit" value="Salvar" class="inputs">       
+            </form>
+        </article>
+        <article class="forms">
+            <form action="#">
+                <h3>Deletar produtos</h3><br><br>
+                <label for="prodId">Id Produto</label><br>
+                <select name="prodId" id="prodId" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select><br>
+                <label for="prodNome">Nome Produto</label><br>
+                <select name="prodNome" id="prodNome" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select><br>
+                <input type="submit">
+            </form>
+        </article>
+        

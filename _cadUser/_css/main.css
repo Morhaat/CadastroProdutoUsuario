@@ -1,0 +1,147 @@
+body{
+    position: static;
+    margin-bottom: 80px;
+}
+
+form{
+    width: 900px;
+    margin: 150px auto 50px auto;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+}
+form div{
+    display:inline-table;
+    position: relative;
+    margin-left: 20px;
+}
+
+#barraColor{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(18, 24, 71);
+    margin-left: 0;
+}
+
+#barraColor h3{
+    color: rgb(255, 255, 255);
+    margin: 15px 0 0 20px;
+    font-size: 20px;
+}
+
+#userId{
+    width: 200px;
+    margin: 0 20px 10px 0;
+}
+
+#userNome{
+    width: 600px;
+    margin: 0 20px 10px 0;
+}
+
+#nomeUser{
+    width: 250px;
+    margin: 0 20px 10px 0;
+}
+
+#sbrnmUser{
+    width: 550px;
+    margin: 0 20px 10px 0;
+}
+
+#e-mail{
+    width: 500px;
+    margin: 0 20px 10px 0;
+}
+
+.inputs-menores{
+    margin: 0 0 10px 20px;
+}
+
+.inputsBt{
+    width: 100px;
+    height: 30px;
+}
+
+#tbRow{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+    padding: 20px;
+}
+
+#tbRow #edBusca{
+    width: 500px;
+    height: 25px;
+}
+
+#tbRow table{
+    margin-top: 10px;
+}
+
+#tbRow th{
+    border: 2px solid  rgba(0, 0, 0, 0.7);
+    padding: 5px;
+
+}
+
+#tbRow td{
+    border: 1px solid  rgba(0, 0, 0, 0.7);
+    padding: 5px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+
+#frameWarningShow{
+    display:block;
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    background-color: rgb(219, 219, 219);
+    left: calc(50% - 200px);
+    top: calc(50% - 75px);
+    border: 1px rgba(0, 0, 0, 0.7) solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+#frameWarningHidden{
+    display: none;
+}  
+
+#frameWarningShow #mDiv{
+    text-align: center;
+    position:inherit;
+    margin: 0 auto;
+    width: 95%;
+    top: 20px;
+}
+
+#frameWarningShow #mDiv input{
+    margin-left: 10px;
+    width: 80px;
+}
+
+
+#rodape{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: aliceblue;
+    height: 50px;
+    background-color: rgb(18, 24, 71);
+    box-shadow: 0 0 4px black;
+}
+
+#rodape p{
+    top: 33px;
+    text-align: right;
+    position: relative;
+}

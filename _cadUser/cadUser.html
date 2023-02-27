@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/reset.css">
+    <link rel="stylesheet" href="../_css/main.css">
+    <link rel="stylesheet" href="./_css/main.css">
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+    <header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html" id="btHome">Início</a></li>
+                    <li><a href="javascript:void(0)" id="btUser">Cadastro de usuários</a></li>
+                    <li><a href="../_cadProd/cadProd.html" id="btProd">Cadastro de produtos</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section>
+        <form >
+            <div id="barraColor">
+                <h3>Cadastro de Usuários</h3>
+            </div>
+            <div>
+                <label for="userId">Id usuário</label><br>
+                <select name="userId" id="userId" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="userNome">Nome usuário</label><br>
+                <select name="userNome" id="userNome" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select>
+            </div>
+            <br>
+            <div id="InmUser">
+                <label for="nomeUser">Nome</label><br>
+                <input type="text" id="nomeUser" class="inputs" maxlength="255">
+            </div>
+           
+            <div id="IsbnmUser">
+                <label for="sbrnmUser">Sobrenome</label><br>
+                <input type="text" id="sbrnmUser" class="inputs" >
+            </div>
+            <br>
+            <div id="Iuser" class="inputs-menores">
+                <label for="user">Usuário</label><br>
+                <input type="text" id="user" class="inputs" >   
+            </div>
+            
+            <div id="Isenha" class="inputs-menores">
+                <label for="senha">Senha</label><br>
+                <input type="password" id="senha" class="inputs" >    
+            </div>
+            
+            <div id="Ie-mail" >
+                <label for="e-mail">E-mail</label><br>
+                <input type="text" id="e-mail" class="inputs" >    
+            </div>
+            <br>
+
+            <div id="vidBt2" class="inputs-menores">
+                <input type="button" id="btNovo" class="inputsBt" value="Novo">    
+            </div>
+            <div id="vidBt3" class="inputs-menores">
+                <input type="button" id="btAltera" class="inputsBt" value="Alterar">    
+            </div>
+            <div id="vidBt4" class="inputs-menores">
+                <input type="button" id="btDeleta" class="inputsBt" value="Deletar">    
+            </div>
+
+            <div id="frameWarningHidden" name="frameWarning">
+
+            </div>
+        </form>
+        <div id="tbRow">
+            <label for="edBusca">Busca</label><br>
+            <input type="text" id="edBusca" placeholder="Digite o codigo ou o nome do produto">
+            <input type="button" id="btBusca" class="inputsBt" value="Buscar"> 
+            <br>
+            <table id="busca">
+
+            </table>
+        </div>
+    </section>
+    <footer id="rodape">
+        <p>Douglas Barreto - 02-2023</p>
+    </footer>
+    <script src="./_js/main.js"></script>
+</body>
+</html>

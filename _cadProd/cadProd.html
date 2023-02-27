@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/reset.css">
+    <link rel="stylesheet" href="../_css/main.css">
+    <link rel="stylesheet" href="./_css/main.css">
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+    <header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html" id="btHome">Início</a></li>
+                    <li><a href="../_cadUser/cadUser.html" id="btUser">Cadastro de usuários</a></li>
+                    <li><a href="javascript:void(0)" id="btProd">Cadastro de produtos</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section>
+        <form >
+            <div id="barraColor">
+                <h3>Cadastro de Produtos</h3>
+            </div>
+            <div>
+                <label for="prodId">Id Produto</label><br>
+                <select name="prodId" id="prodId" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="prodNome">Nome Produto</label><br>
+                <select name="prodNome" id="prodNome" class="inputs">
+                    <option value="">Selecione uma opção</option>
+                </select>
+            </div>
+            <br>
+            <div id="Icod">
+                <label for="codBarra">Código de Barra</label><br>
+                <input type="text" id="codBarra" class="inputs" maxlength="255">
+            </div>
+           
+            <div id="InmProd">
+                <label for="nmProd">Nome Produto</label><br>
+                <input type="text" id="nmProd" class="inputs" >
+            </div>
+            <br>
+            <div id="Iqtde" class="inputs-menores">
+                <label for="qtde">Quantidade</label><br>
+                <input type="text" id="qtde" class="inputs" >   
+            </div>
+            
+            <div id="Ivolume" class="inputs-menores">
+                <label for="volume">Volume</label><br>
+                <input type="text" id="volume" class="inputs" >    
+            </div>
+            
+            <div id="Ivalor" class="inputs-menores">
+                <label for="valor">Valor</label><br>
+                <input type="text" id="valor" class="inputs" >    
+            </div>
+            <br>
+
+            <div id="vidBt2" class="inputs-menores">
+                <input type="button" id="btNovo" class="inputsBt" value="Novo">    
+            </div>
+            <div id="vidBt3" class="inputs-menores">
+                <input type="button" id="btAltera" class="inputsBt" value="Alterar">    
+            </div>
+            <div id="vidBt4" class="inputs-menores">
+                <input type="button" id="btDeleta" class="inputsBt" value="Deletar">    
+            </div>
+
+            <div id="frameWarningHidden" name="frameWarning">
+
+            </div>
+        </form>
+        <div id="tbRow">
+            <label for="edBusca">Busca</label><br>
+            <input type="text" id="edBusca" placeholder="Digite o codigo ou o nome do produto">
+            <input type="button" id="btBusca" class="inputsBt" value="Buscar"> 
+            <br>
+            <table id="busca">
+
+            </table>
+        </div>
+    </section>
+    <footer id="rodape">
+        <p>Douglas Barreto - 02-2023</p>
+    </footer>
+    <script src="./_js/main.js"></script>
+</body>
+</html>
